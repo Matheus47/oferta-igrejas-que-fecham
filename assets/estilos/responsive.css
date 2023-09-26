@@ -1,0 +1,138 @@
+@media screen and (min-width: 1001px) and (max-width: 1240px) {
+}
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 600px) {
+	:root {
+		--titulo-size: 30px;
+	}
+
+	main,
+	section {
+		padding: 40px 20px;
+	}
+
+	.container {
+		max-width: 400px;
+	}
+
+	.conteudo-esquerda,
+	.conteudo-direita {
+		width: 100%;
+	}
+
+	a {
+		width: 80%;
+		font-size: 16px;
+		padding: 14px 12px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.hero-section .container .contain {
+		width: 100%;
+	}
+
+	.igreja-anvancando {
+		padding-bottom: 3rem;
+	}
+
+	.video {
+		padding-top: 10rem;
+	}
+
+	.video-flutuante {
+		width: 100%;
+		max-width: 380px;
+		height: 215px;
+		top: -250px;
+	}
+
+	.escolha-inchurch .container {
+		flex-flow: column;
+	}
+
+	.missao-empresa .contain {
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.box-missao {
+		width: 80%;
+	}
+
+	.plataforma-que-ajuda .container {
+		display: flex;
+		justify-content: center;
+		align-items: baseline;
+		text-align: center;
+	}
+
+	.plataforma-que-ajuda span {
+		font-size: 30px;
+	}
+
+	.plataforma-que-ajuda h1 {
+		font-size: 36px;
+	}
+
+	.sobre-inchurch .container .contain {
+		flex-flow: column;
+		padding: 0 20px;
+	}
+
+	.sobre-inchurch p {
+		font-size: 18px;
+	}
+
+	.escolha-inchurch .conteudo-esquerda h1,
+	.escolha-inchurch .conteudo-esquerda img {
+		margin-left: 10px;
+	}
+
+	.escolha-inchurch .conteudo-esquerda h1 {
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.escolha-inchurch .conteudo-esquerda {
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	.lista-caixa-branca {
+		padding: 20px 10px;
+	}
+
+	.dl-faq {
+		position: relative !important;
+		max-width: 98% !important;
+		padding: 20px 10px !important;
+	}
+
+	.FAQ .dl-faq p {
+		font-size: 16px;
+	}
+
+	.sobre-sydney .container,
+	.fale-whatsapp .container {
+		gap: 40px;
+		padding: 20px 0;
+	}
+
+	.sobre-sydney p,
+	.fale-whatsapp p {
+		font-size: 24px;
+		width: 100%;
+	}
+}

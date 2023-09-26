@@ -1,0 +1,433 @@
+.hero-section {
+	background-image: url(/assets/imagens/bg-hero-section.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hero-section .container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.hero-section .container .contain {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 70%;
+	gap: 30px;
+	position: relative;
+}
+
+.video {
+	background-image: url(/assets/imagens/Background_02_Preto.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 22rem;
+}
+
+.video .container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 40px;
+	margin-bottom: 80px;
+}
+
+.igreja-anvancando {
+	padding-bottom: 10rem;
+}
+
+.container-video-flutuante {
+	position: relative;
+}
+
+.video-flutuante {
+	position: absolute;
+	top: -500px;
+	width: 70%;
+	height: 450px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+}
+
+.plataforma-que-ajuda {
+	background-image: url(/assets/imagens/background-verde.png);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.plataforma-que-ajuda .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 40px 0 100px 0;
+}
+
+.sobre-inchurch {
+	background-image: url(/assets/imagens/Background_02_Preto.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 80px 0 100px;
+	margin-top: -140px;
+}
+
+.sobre-inchurch .container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+	margin-top: 80px;
+}
+
+.sobre-inchurch .contain {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.imagem-time {
+	width: 100%;
+}
+
+.area-de-depoimentos,
+.fale-whatsapp {
+	background-image: url(/assets/imagens/Background_03_Azul.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.area-de-depoimentos .container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.missao-empresa,
+.os-pilares,
+.FAQ,
+.sobre-sydney {
+	background-image: url(/assets/imagens/Background_02_Preto.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.missao-empresa .container,
+.os-pilares .container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 20px;
+	padding-bottom: 80px;
+}
+
+.missao-empresa .contain,
+.os-pilares .contain {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	text-align: center;
+	gap: 50px;
+	margin-top: 50px;
+}
+
+.box-missao {
+	display: flex;
+	flex-flow: column;
+	width: 25%;
+	gap: 10px;
+	padding: 20px 15px;
+	text-align: left;
+	border-radius: 6px;
+	border: 2px solid var(--main-color);
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.icone {
+	width: 90px;
+	height: auto;
+}
+
+.card-pilares {
+	display: flex;
+	flex-flow: row;
+}
+
+.escolha-inchurch {
+	background-image: url(/assets/imagens/Background-inChurch.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.escolha-inchurch .container {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.escolha-inchurch .conteudo-esquerda h1,
+.escolha-inchurch .conteudo-esquerda img {
+	margin-left: 50px;
+}
+
+.lista-caixa-branca {
+	display: flex;
+	flex-flow: column;
+	background-color: #fff;
+	list-style: none;
+	border-radius: 8px;
+	padding: 20px 30px;
+}
+
+.lista-caixa-branca li {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	gap: 20px;
+	padding: 10px;
+	color: #000;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.FAQ .container,
+.sobre-sydney .container,
+.fale-whatsapp .container {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.sobre-sydney .container,
+.fale-whatsapp .container {
+	gap: 40px;
+	padding: 100px 0;
+}
+
+/*
+-- Carrosel de Imagens para Pilares da Inchurch
+*/
+
+.carousel-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    perspective: 1000px; /* Adiciona perspectiva para o efeito de desfoque */
+}
+
+.carousel-slider img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(1); /* Aplica o efeito de desfoque */
+}
+
+.carousel-slider img.current {
+    filter: none; /* Remove o desfoque para o card atual */
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+/*.gallery {
+	width: 100%;
+}
+
+.gallery-container {
+	display: flex;
+	align-items: center;
+	height: 400px;
+	margin: 0 auto;
+	max-width: 1000px;
+	position: relative;
+}
+
+.gallery-item {
+	height: 200px;
+	opacity: 0;
+	position: absolute;
+	transition: all 0.3s ease-in-out;
+	width: 330px;
+	z-index: 0;
+	border-radius: 15px;
+	background-size: contain;
+}
+
+.gallery-item-1 {
+	left: 15%;
+	opacity: 0.4;
+	transform: translateX(-50%);
+}
+
+.gallery-item-2,
+.gallery-item-4 {
+	width: 380px;
+	height: 250px;
+	opacity: 0.8;
+	z-index: 1;
+}
+
+.gallery-item-2 {
+	left: 30%;
+	transform: translateX(-50%);
+}
+
+.gallery-item-3 {
+	box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+	height: 300px;
+	opacity: 1;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 430px;
+	z-index: 2;
+}
+
+.gallery-item-4 {
+	left: 70%;
+	transform: translateX(-50%);
+}
+
+.gallery-item-5 {
+	left: 85%;
+	opacity: 0.4;
+	transform: translateX(-50%);
+}
+
+.gallery.controls{
+	display: flex;
+	justify-content: center;
+	margin: 25px 0;
+	height: 100px;
+}
+
+.gallery-controls button{
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	font-size: 30px;
+	margin: 0 50px;
+	padding: 0 12px;
+	text-transform: capitalize;
+}
+
+.gallery-controls-button:focus{
+	outline: none;
+}
+
+.gallery-controls-previous{
+	position: relative;
+}
+
+.gallery-controls-previous::before{
+	border: solid #000;
+	border-width: 0 5px 5px 0;
+	content: '';
+	display: inline-block;
+	height: 5px;
+	left: -30px;
+	padding: 10px;
+	position: absolute;
+	top: 25%;
+	transform: rotate(135deg) translateY(-50%);
+	transition: left 0.15s ease-in-out;
+	width: 5px;
+}
+
+.gallery-controls-previous:hover::before{
+	left: -40px;
+}
+
+.gallery-controls-next{
+	position: relative;
+}
+
+.gallery-controls-next::before{
+	border: solid #000;
+	border-width: 0 5px 5px 0;
+	content: '';
+	display: inline-block;
+	height: 5px;
+	padding: 10px;
+	position: absolute;
+	right: -30px;
+	top: 45;
+	transform: rotate(-45deg) translateY(-50%);
+	transition: right 0.15s ease-in-out;
+	width: 5px;
+}
+
+.gallery-controls-next:hover::before{
+	right: -40px;
+}
+
+.gallery-nav{
+	bottom: -15px;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.gallery-nav li{
+	background: #ccc;
+	border-radius: 50%;
+	height: 10px;
+	margin: 0 16px;
+	width: 10px;
+}
+
+.gallery-nav li.gallery-item-selected{
+	background: #555;
+}
+*/

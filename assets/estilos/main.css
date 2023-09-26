@@ -1,0 +1,177 @@
+/*
+-- Padrões e Reset --
+*/
+
+:root {
+	--main-color: #2495e3;
+	--secundary-color: #262626;
+	--green-color: rgb(159, 227, 71);
+	--color-grey: #f4f4f4;
+	--titulo-size: 50px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: GothamPro, sans-serif;
+	color: #fff;
+}
+
+main,
+section {
+	padding: 80px 40px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.conteudo-esquerda,
+.conteudo-direita {
+	width: 50%;
+}
+
+.logo {
+	width: 160px;
+}
+
+.logo-inchurch {
+	width: 70%;
+}
+
+.icone-lista {
+	height: 40px;
+}
+
+.azul {
+	color: var(--main-color);
+	font-weight: 600;
+}
+
+iframe {
+	width: 90%;
+	height: 440px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+}
+
+/*
+-- Textos --
+*/
+
+h1 {
+	font-size: var(--titulo-size);
+	font-weight: 600;
+}
+
+.plataforma-que-ajuda h1 {
+	color: #fff;
+	font-size: 60px;
+}
+
+.escolha-inchurch .conteudo-esquerda h1 {
+	font-size: 64px;
+}
+
+.FAQ h1 {
+	font-size: 60px;
+}
+
+h2 {
+	color: #cccccc;
+	font-size: 36px;
+	font-weight: 100;
+}
+
+.box-missao h2 {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+h3 {
+	color: #cccccc;
+	font-size: 30px;
+}
+
+.hero-section span {
+	font-weight: 100;
+}
+
+.plataforma-que-ajuda span {
+	color: #333333;
+	font-weight: 100;
+	font-size: 44px;
+}
+
+.fale-whatsapp span{
+	color: var(--secundary-color);
+	font-size: var(--titulo-size);
+}
+
+p {
+	font-size: 20px;
+	color: #cccccc;
+}
+
+.sobre-inchurch p {
+	font-size: 22px;
+	color: #cccccc;
+	margin: 20px 0;
+}
+
+.box-missao p {
+	font-size: 18px;
+}
+
+.FAQ p.paragrafo-separamos {
+	font-size: 36px;
+	width: 50%;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+.FAQ .dl-faq p {
+	font-size: 20px;
+}
+
+.sobre-sydney p {
+	font-size: 36px;
+	font-weight: lighter;
+	width: 80%;
+	text-align: center;
+}
+
+.fale-whatsapp p {
+	font-size: 30px;
+	font-weight: lighter;
+	width: 70%;
+	text-align: center;
+}
+
+a {
+	display: block;
+	background-color: var(--main-color);
+	padding: 14px;
+	border-radius: 18px;
+	width: 50%;
+	font-size: 28px;
+	text-decoration: none;
+	font-weight: 600;
+	box-shadow: 0px 0px 20px 0px rgba(36, 149, 227, 1);
+	text-align: center;
+}
+
+a.botao-escuro {
+	background-color: var(--secundary-color);
+}
+
+a.botao-verde {
+	background-color: var(--green-color);
+	box-shadow: 0px 0px 20px 0px var(--green-color);
+}
